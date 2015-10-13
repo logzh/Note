@@ -12,10 +12,13 @@ resource mark
 
 ##Angularjs
 
+* [ui-router wiki](https://github.com/angular-ui/ui-router/wiki)
+* [ui-router wiki中文](http://bubkoo.com/2014/01/02/angular/ui-router/guide/index/)
+
 ##Node.js
 
 ##PHP
 
 ##全栈
-[基于 LeanCloud 云引擎的 Web 全栈方案](https://blog.leancloud.cn/3729/)
+* [基于 LeanCloud 云引擎的 Web 全栈方案](https://blog.leancloud.cn/3729/)
 
