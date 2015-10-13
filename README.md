@@ -10,6 +10,8 @@ resource mark
 ##React
 > 突然想到，如果把Web应用看成状态机，那么就存在两种值：一种是数据data，一种是状态state。它们应该分开管理，同一个model或controller，不能既用来管理数据，又用来管理状态。而Flux架构似乎是一个状态架构，而不是数据架构。——阮一峰
 
+##Angularjs
+
 ##Node.js
 
 ##PHP
