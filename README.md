@@ -19,6 +19,13 @@ resource mark
 * [Flux For Stupid People](http://blog.andrewray.me/flux-for-stupid-people/)
 * [React.js and Dynamic Children - Why the Keys are Important](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)[未读]
 * [轻松入门React和Webpack](http://segmentfault.com/a/1190000002767365)[未读☆☆☆☆]
+* [React v0.14 概览](http://www.tuicool.com/articles/IN7nIne)
+* [Rendering ReactJS templates server-side.](http://blog.frankdejonge.nl/rendering-reactjs-templates-server-side/)
+* [Tutorial: Setting Up a Simple Isomorphic React app](http://jmfurlott.com/tutorial-setting-up-a-simple-isomorphic-react-app/)
+* [http://reactjsnews.com/isomorphic-javascript-with-react-node/](http://reactjsnews.com/isomorphic-javascript-with-react-node/)
+
+
+http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-component
 
 ##Angularjs
 
