@@ -2,7 +2,7 @@
 resource mark
 
 ##es5
-* [JavaScript 参考文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference)[未读☆☆☆☆]
+* [JavaScript 参考文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference){:target="_blank"} [未读☆☆☆☆]
 
 ##es6
 * [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
