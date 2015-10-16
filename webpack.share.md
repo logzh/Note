@@ -58,7 +58,7 @@ exports.asplode = function (){
   anotherModule.doMoarAwesome();
 };
 ```
-<b>自然、简单,不在回调回调</b>
+<b>自然、简单，不在回调回调</b>
 
 不过即使你保留了之前 define 的写法也是可以滴，毕竟 webpack 的兼容性相当出色，方便你旧项目的模块直接迁移过来。
 
@@ -74,7 +74,7 @@ $ npm init
 $ npm install webpack --save-dev
 ```
 ###配置
-每个项目下都必须配置有一个 webpack.config.js ，它的作用如同常规的 gulpfile.js/Gruntfile.js ，就是一个配置项，告诉 webpack 它需要做什么。
+每个项目下都必须配置有一个 webpack.config.js ，它的作用如同常规的 gulpfile.js/gulpfile.js ，就是一个配置项，告诉 webpack 它需要做什么。
 
 我们看看下方的示例：
 ```javascript
