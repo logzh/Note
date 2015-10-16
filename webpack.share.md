@@ -58,7 +58,7 @@ exports.asplode = function (){
   anotherModule.doMoarAwesome();
 };
 ```
-这样撸码自然更简单，跟回调神马的说 byebye~
+<b>自然、简单,不在回调回调</b>
 
 不过即使你保留了之前 define 的写法也是可以滴，毕竟 webpack 的兼容性相当出色，方便你旧项目的模块直接迁移过来。
 
