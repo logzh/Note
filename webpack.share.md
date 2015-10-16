@@ -14,8 +14,8 @@
       5. 与 grunt/gulp 配合
       6. 与react相关
    7. demo演示
-2. [Mock.js](http://mockjs.com/)
-3. React、Flux
+2. [Mock.js](http://mockjs.com/)分享
+3. React分享
 4. ES6
 
 #什么是webpack？
