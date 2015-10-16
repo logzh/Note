@@ -12,14 +12,14 @@
       5. 与 grunt/gulp 配合
       6. 与react相关
    7. demo演示
-2. 222
+2. [Mock.js](http://mockjs.com/)
 3. 333
 
 #什么是webpack？
 
-功能最为强大的前端 模块管理 和 打包工具
 
-webpack是近期最火的一款模块加载器兼打包工具，它能把各种资源，例如JS（含JSX）、coffee、样式（含less/sass）、图片等都作为模块来使用和处理。
+
+webpack是近期最火的一款<b>模块管理模块加载器兼打包工具</b>，它能把各种资源，例如JS（含JSX）、coffee、样式（含less/sass）、图片等都作为模块来使用和处理。
 
 ![a.png](http://webpack.github.io/assets/what-is-webpack.png "")
 我们可以直接使用 require(XXX) 的形式来引入各模块，即使它们可能需要经过编译（比如JSX和sass），但我们无须在上面花费太多心思，因为 webpack 有着各种健全的加载器（loader）在默默处理这些事情，这块我们后续会提到。
