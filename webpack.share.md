@@ -15,6 +15,7 @@
       6. 与react相关
    7. demo演示
 2. [Mock.js](http://mockjs.com/)分享
+3. gulp基于流的自动化构建
 3. React分享
 4. ES6
 
