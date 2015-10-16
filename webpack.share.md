@@ -1,3 +1,5 @@
+#webpack入门分享
+
 1. webpack介绍
    1. 什么是webpack
    2. 优势
@@ -13,7 +15,8 @@
       6. 与react相关
    7. demo演示
 2. [Mock.js](http://mockjs.com/)
-3. React
+3. React、Flux
+4. ES6
 
 #什么是webpack？
 
