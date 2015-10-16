@@ -1,6 +1,6 @@
 #目录
 
-1. webpack介绍
+1. webpack分享
    1. 什么是webpack
    2. 优势
    3. 安装和配置
