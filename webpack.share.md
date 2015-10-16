@@ -337,27 +337,9 @@ $script("//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js", function()
 });
 ```
 
-###五. 与 grunt/gulp 配合
+###五. 与 grunt or gulp 配合
 
-以 gulp 为示例，我们可以这样混搭：
-
-```javascript
-gulp.task("webpack", function(callback) {
-    // run webpack
-    webpack({
-        // configuration
-    }, function(err, stats) {
-        if(err) throw new gutil.PluginError("webpack", err);
-        gutil.log("[webpack]", stats.toString({
-            // output options
-        }));
-        callback();
-    });
-});
-```
-当然我们只需要把配置写到`webpack({ ... })`中去即可，无须再写`webpack.config.js`了。
-
-更多参照信息请参阅：[grunt配置](http://webpack.github.io/docs/usage-with-grunt.html) / [gulp配置](http://webpack.github.io/docs/usage-with-gulp.html) 。
+[grunt配置](http://webpack.github.io/docs/usage-with-grunt.html) / [gulp配置](http://webpack.github.io/docs/usage-with-gulp.html) 。
 
 
 
@@ -366,5 +348,4 @@ gulp.task("webpack", function(callback) {
 ⑴ 推荐使用`npm install react`的形式来安装并引用 React 模块，而不是直接使用编译后的 react.js，这样最终编译出来的 React 部分的脚本会减少 10-20 kb左右的大小。
 
 ⑵ [react-hot-loader](https://github.com/gaearon/react-hot-loader) 是一款非常好用的 React 热插拔的加载插件，通过它可以实现修改-运行同步的效果，配合[webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html) 使用更佳！
-
-共勉~
+[Webpack-dev-server结合后端服务器的热替换配置](http://www.jianshu.com/p/8adf4c2bfa51)
