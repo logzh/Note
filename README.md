@@ -11,6 +11,7 @@ resource mark
 * [ES6走马观花](http://alinode.aliyun.com/blog/1)
 * [React 带给 Backbone 开发者的福利](http://zhuanlan.zhihu.com/FrontendMagazine/20255136)
 * [Lessons Backbone Developers Can Learn From React](http://benmccormick.org/2015/09/09/what-can-backbone-developers-learn-from-react/)
+* [Learn ES2015](http://babeljs.io/docs/learn-es2015/) A detailed overview of ECMAScript 6 features.
 
 ##React
 
@@ -27,6 +28,7 @@ resource mark
 * [Rendering ReactJS templates server-side.](http://blog.frankdejonge.nl/rendering-reactjs-templates-server-side/)
 * [Tutorial: Setting Up a Simple Isomorphic React app](http://jmfurlott.com/tutorial-setting-up-a-simple-isomorphic-react-app/)
 * [http://reactjsnews.com/isomorphic-javascript-with-react-node/](http://reactjsnews.com/isomorphic-javascript-with-react-node/)
+* [关于React与ES6的几篇文章](http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html)
 
 
 http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-component
