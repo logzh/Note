@@ -45,3 +45,7 @@ http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-componen
 ##全栈
 * [基于 LeanCloud 云引擎的 Web 全栈方案](https://blog.leancloud.cn/3729/)
 
+##bash
+[loop-through-array-of-strings-in-bash-script](http://stackoverflow.com/questions/8880603/loop-through-array-of-strings-in-bash-script)
+
+
