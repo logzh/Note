@@ -19,7 +19,7 @@ resource mark
 
 * [ReactJS 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
 * [ReactJS For Stupid People](http://blog.andrewray.me/reactjs-for-stupid-people/)
-* [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
+* [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
 * [Flux For Stupid People](http://blog.andrewray.me/flux-for-stupid-people/)
 * [React.js and Dynamic Children - Why the Keys are Important](http://blog.arkency.com/2014/10/react-dot-js-and-dynamic-children-why-the-keys-are-important/)[未读]
 * [轻松入门React和Webpack](http://segmentfault.com/a/1190000002767365)[未读☆☆☆☆]
