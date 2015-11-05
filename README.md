@@ -61,4 +61,7 @@ done
 # You can access them using echo "${arr[0]}", "${arr[1]}" also
 ```
 
+##其他
+[阿里巴巴、百度前端工程师 2015 暑期实习生面试经历](http://zhangwenli.com/blog/2015/04/01/2015-front-end-engineer-interview/)
+
 
