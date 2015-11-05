@@ -60,8 +60,15 @@ done
 
 # You can access them using echo "${arr[0]}", "${arr[1]}" also
 ```
+##前端博客
+- [淘宝前端团队(FED)](http://taobaofed.org/)
+- [百度前端研发部(FEX)](http://fex.baidu.com/)
+
+##前端工程构建
+- [FIS](http://fis.baidu.com/)
 
 ##其他
-[阿里巴巴、百度前端工程师 2015 暑期实习生面试经历](http://zhangwenli.com/blog/2015/04/01/2015-front-end-engineer-interview/)
+- [阿里巴巴、百度前端工程师 2015 暑期实习生面试经历](http://zhangwenli.com/blog/2015/04/01/2015-front-end-engineer-interview/)
+- [如何衡量一个人的 AngularJS 水平](http://www.zhihu.com/question/36040694)
 
 
