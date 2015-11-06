@@ -1,7 +1,7 @@
 ```bash
 git status #important
 
-git commit -a -m 'ÆÀÂÛ'
+git commit -a -m 'Ã†Ã€Ã‚Ã›'
 
 git pull
 
@@ -10,5 +10,7 @@ git push origin master
 git add <file>
 
 git rm <file>
+
+git checkout -- <file>
 
 ```
