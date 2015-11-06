@@ -66,7 +66,10 @@ done
 - [百度前端研发部(FEX)](http://fex.baidu.com/)
 
 ##gitboks
--
+- [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
+- [ECMAScript 6入门](https://wohugb.gitbooks.io/ecmascript-6/content/docs/intro.html)
+- [React 概览 | React 入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
+       
 ##前端工程构建
 - [FIS](http://fis.baidu.com/)
 
