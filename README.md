@@ -42,7 +42,8 @@ http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-componen
 
 ##Vue.js
 - [Vue.js 快速入门](http://segmentfault.com/a/1190000003968020)
-- []
+- [文档](http://cn.vuejs.org/)
+
 ##Node.js
 
 ##PHP
