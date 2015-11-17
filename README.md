@@ -30,7 +30,7 @@ resource mark
 * [http://reactjsnews.com/isomorphic-javascript-with-react-node/](http://reactjsnews.com/isomorphic-javascript-with-react-node/)
 * [关于React与ES6的几篇文章](http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html)
 * [关于简聊 Webpack 配置的一些注释](http://segmentfault.com/a/1190000002889630)
-* [React Reflux](http://segmentfault.com/a/1190000002793786)
+* [React Reflux 入门](http://segmentfault.com/a/1190000002793786)
 
 
 http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-component
