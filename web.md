@@ -41,6 +41,12 @@
      * gulp
      * grunt
 
+##前端库和框架
+* jQuery、zepto
+* underscore
+* AngularJS、Backbone、React、vue.js
+* Bootstrap、Semantic UI
+
 ##流程
 
 ####方案一
@@ -54,8 +60,17 @@
 1. 需要资源表
 
 解决：
+
 1. 方法一：构建时产生资源表
-2. 如果是纯前端项目，可以使用fis3解决，非常简单
+2. 方法二：如果是纯前端项目，可以使用fis3解决，非常简单，参考[FIS3 , 为你定制的前端工程构建工具](http://fis.baidu.com/fis3/docs/build.html)
+
+资源内嵌、定位资源、依赖声明
+
+```bash
+fis3 install
+fis3 release
+fis3 server
+```
 
 ####方案二（最低要求）
 
@@ -65,20 +80,26 @@
 
 问题：
 
-1. 图片
-
-解决：
-
-1. 
+![wwq.png](https://raw.githubusercontent.com/logzh/bookmark/master/image/wwq.png)
 
 ##组件化解决方案
 
 ####方案一：react
 
-demo： [react reflux todo](https://github.com/logzh/react-reflux-todo)
+[ant-design](https://github.com/ant-design/ant-design)
 
-####方案二：其他：vuejs、ploymer
-https://googlewebcomponents.github.io/
+demo： 
+
+1. [react reflux todo](https://github.com/logzh/react-reflux-todo)
+2. [react-client](https://github.com/logzh/react-client)
+3. webpack 常用配置文章 (未完成)
+4. reflux 使用文章 (未完成)
+
+####方案二：vuejs、ploymer等
+
+[vue-strap](http://yuche.github.io/vue-strap/)
+[vue-antd](https://github.com/okoala/vue-antd)
+[googlewebcomponents](https://googlewebcomponents.github.io/)
 
 ##后台管理系统前台推荐方案
 
@@ -86,7 +107,7 @@ angularjs
 
 demo:
 
-angularjs+webpack [使用webpack组织Angularjs代码](http://km.oa.com/group/24792/articles/show/242455)
+1. [angularjs+webpack](https://github.com/logzh/angular-webpack-example) [使用webpack组织Angularjs代码](http://km.oa.com/group/24792/articles/show/242455)
 
 ##问题
 
