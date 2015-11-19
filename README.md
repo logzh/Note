@@ -31,6 +31,11 @@ resource mark
 * [关于React与ES6的几篇文章](http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html)
 * [关于简聊 Webpack 配置的一些注释](http://segmentfault.com/a/1190000002889630)
 
+### Flux架构
+* [React Reflux 入门](http://segmentfault.com/a/1190000002793786)
+* [你为什么应该试一试Reflux](http://icodeit.org/2015/11/get-started-with-reflux/)
+
+
 
 http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-component
 
@@ -38,6 +43,10 @@ http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-componen
 
 * [ui-router wiki](https://github.com/angular-ui/ui-router/wiki)
 * [ui-router wiki中文](http://bubkoo.com/2014/01/02/angular/ui-router/guide/index/)
+
+##Vue.js
+- [Vue.js 快速入门](http://segmentfault.com/a/1190000003968020)
+- [文档](http://cn.vuejs.org/)
 
 ##Node.js
 
