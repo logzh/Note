@@ -41,6 +41,12 @@
      * gulp
      * grunt
 
+##前端库和框架
+* jQuery、zepto
+* underscore
+* AngularJS、Backbone、React、vue.js
+* Bootstrap、Semantic UI
+
 ##流程
 
 ####方案一
