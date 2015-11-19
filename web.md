@@ -56,7 +56,15 @@
 解决：
 
 1. 方法一：构建时产生资源表
-2. 如果是纯前端项目，可以使用fis3解决，非常简单
+2. 方法二：如果是纯前端项目，可以使用fis3解决，非常简单，参考[FIS3 , 为你定制的前端工程构建工具](http://fis.baidu.com/fis3/docs/build.html)
+
+资源内嵌、定位资源、依赖声明
+
+```bash
+fis3 install
+fis3 release
+fis3 server
+```
 
 ####方案二（最低要求）
 
