@@ -93,7 +93,7 @@ angularjs
 
 demo:
 
-angularjs+webpack [使用webpack组织Angularjs代码](http://km.oa.com/group/24792/articles/show/242455)
+1. [angularjs+webpack](https://github.com/logzh/angular-webpack-example) [使用webpack组织Angularjs代码](http://km.oa.com/group/24792/articles/show/242455)
 
 ##问题
 
