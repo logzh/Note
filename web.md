@@ -65,7 +65,7 @@
 
 问题：
 
-1. 图片
+1. ![wwq.png](https://raw.githubusercontent.com/logzh/bookmark/master/image/wwq.png)
 
 解决：
 
