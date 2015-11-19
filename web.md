@@ -72,10 +72,19 @@
 
 ####方案一：react
 
-demo： [react reflux todo](https://github.com/logzh/react-reflux-todo)
+[ant-design](https://github.com/ant-design/ant-design)
 
-####方案二：其他：vuejs、ploymer
-https://googlewebcomponents.github.io/
+demo： 
+1. [react reflux todo](https://github.com/logzh/react-reflux-todo)
+2. [react-client](https://github.com/logzh/react-client)
+3. webpack 常用配置文章 (未完成)
+4. reflux 使用文章 (未完成)
+
+####方案二：vuejs、ploymer等
+
+[vue-strap](http://yuche.github.io/vue-strap/)
+[vue-antd](https://github.com/okoala/vue-antd)
+[googlewebcomponents](https://googlewebcomponents.github.io/)
 
 ##后台管理系统前台推荐方案
 
