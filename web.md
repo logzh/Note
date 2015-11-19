@@ -54,6 +54,7 @@
 1. 需要资源表
 
 解决：
+
 1. 方法一：构建时产生资源表
 2. 如果是纯前端项目，可以使用fis3解决，非常简单
 
@@ -65,11 +66,7 @@
 
 问题：
 
-1. ![wwq.png](https://raw.githubusercontent.com/logzh/bookmark/master/image/wwq.png)
-
-解决：
-
-1. 
+![wwq.png](https://raw.githubusercontent.com/logzh/bookmark/master/image/wwq.png)
 
 ##组件化解决方案
 
