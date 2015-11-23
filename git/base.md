@@ -1,7 +1,7 @@
 ```bash
 git status #important
 
-git commit -a -m 'ÆÀÂÛ'
+git commit -a -m '评论'
 
 git pull
 
