@@ -107,7 +107,7 @@ angularjs
 
 demo:
 
-1. [angularjs+webpack](https://github.com/logzh/angular-webpack-example) [使用webpack组织Angularjs代码](http://km.oa.com/group/24792/articles/show/242455)
+1. [github](https://github.com/logzh/angular-webpack-example) [使用webpack组织Angularjs代码](http://km.oa.com/group/24792/articles/show/242455)
 
 ##问题
 
@@ -115,4 +115,3 @@ demo:
 2. 纯前端项目？ php吐页面？
 2. css重构问题
 3. 测试问题、安全问题
-4. hhff 
