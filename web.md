@@ -72,7 +72,7 @@ fis3 release
 fis3 server
 ```
 
-####方案二（最低要求）
+####方案二（WWQ目前方案）
 
 1. 开发阶段：requirejs模块管理
 2. 自动构建阶段：使用gulp进行压缩、合并等任务
