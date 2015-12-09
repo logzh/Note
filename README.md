@@ -17,6 +17,7 @@ resource mark
 
 > 突然想到，如果把Web应用看成状态机，那么就存在两种值：一种是数据data，一种是状态state。它们应该分开管理，同一个model或controller，不能既用来管理数据，又用来管理状态。而Flux架构似乎是一个状态架构，而不是数据架构。——阮一峰
 
+* [React官方文档](http://facebook.github.io/react/docs/getting-started.html) ★★★★★
 * [ReactJS 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
 * [ReactJS For Stupid People](http://blog.andrewray.me/reactjs-for-stupid-people/)
 * [Flux 傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
@@ -34,7 +35,7 @@ resource mark
 ### Flux架构
 * [React Reflux 入门](http://segmentfault.com/a/1190000002793786)
 * [你为什么应该试一试Reflux](http://icodeit.org/2015/11/get-started-with-reflux/)
-
+* [Redux 官方文档（中文版）](http://camsong.github.io/redux-in-chinese/)
 
 
 http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-component
@@ -55,21 +56,7 @@ http://stackoverflow.com/questions/27054014/how-to-use-react-swipe-as-a-componen
 ##全栈
 * [基于 LeanCloud 云引擎的 Web 全栈方案](https://blog.leancloud.cn/3729/)
 
-##bash
-[loop-through-array-of-strings-in-bash-script](http://stackoverflow.com/questions/8880603/loop-through-array-of-strings-in-bash-script)
-```bash
-## declare an array variable
-declare -a arr=("element1" "element2" "element3")
 
-## now loop through the above array
-for i in "${arr[@]}"
-do
-   echo "$i"
-   # or do whatever with individual element of the array
-done
-
-# You can access them using echo "${arr[0]}", "${arr[1]}" also
-```
 ##前端博客
 - [淘宝前端团队(FED)](http://taobaofed.org/)
 - [百度前端研发部(FEX)](http://fex.baidu.com/)
@@ -93,5 +80,21 @@ done
 ##其他
 - [阿里巴巴、百度前端工程师 2015 暑期实习生面试经历](http://zhangwenli.com/blog/2015/04/01/2015-front-end-engineer-interview/)
 - [如何衡量一个人的 AngularJS 水平](http://www.zhihu.com/question/36040694)
+
+##bash
+[loop-through-array-of-strings-in-bash-script](http://stackoverflow.com/questions/8880603/loop-through-array-of-strings-in-bash-script)
+```bash
+## declare an array variable
+declare -a arr=("element1" "element2" "element3")
+
+## now loop through the above array
+for i in "${arr[@]}"
+do
+   echo "$i"
+   # or do whatever with individual element of the array
+done
+
+# You can access them using echo "${arr[0]}", "${arr[1]}" also
+```
 
 
