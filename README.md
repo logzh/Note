@@ -78,9 +78,17 @@ done
 - [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)
 - [ECMAScript 6入门](https://wohugb.gitbooks.io/ecmascript-6/content/docs/intro.html)
 - [React 概览 | React 入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
+- [Redux 官方文档](http://rackt.org/redux/)
+- [Redux 官方文档（中文版）](http://camsong.github.io/redux-in-chinese/)
+- [react-webpack-cookbook](https://christianalfoni.github.io/react-webpack-cookbook/Getting-started.html)
+- [react-webpack-cookbook中文版](https://fakefish.github.io/react-webpack-cookbook/)
+- -[]()
        
-##前端工程构建
+##前端工程构建,
+- [大公司里怎样开发和部署前端代码](https://github.com/fouber/blog/issues/6)
 - [FIS](http://fis.baidu.com/)
+- [Gulp中文网](http://www.gulpjs.com.cn/)
+- [Gulp：任务自动管理工具](http://javascript.ruanyifeng.com/tool/gulp.html#toc6)
 
 ##其他
 - [阿里巴巴、百度前端工程师 2015 暑期实习生面试经历](http://zhangwenli.com/blog/2015/04/01/2015-front-end-engineer-interview/)
