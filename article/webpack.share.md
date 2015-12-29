@@ -1,27 +1,22 @@
 # webpack使用总结
 
-1. webpack分享
-   1. 什么是webpack
-   2. 优势
-   3. 安装和配置
-   4. 运行
-   5. 使用
-   6. 其他
-      1. shimming
-      2. 自定义公共模块提取
-      3. 独立打包样式文件
-      4. 使用CDN/远程文件
-      5. 与 grunt/gulp 配合
-      6. 与react相关
-   7. demo演示
-2. [Mock.js](http://mockjs.com/)分享
-3. gulp基于流的自动化构建
-3. React分享
-4. ES6
 
-#什么是webpack？
+- 什么是webpack
+- 优势
+- 安装和配置
+- 运行
+- 使用
+- 其他
+  - shimming
+  - 自定义公共模块提取
+  - 独立打包样式文件
+  - 使用CDN/远程文件
+  - 与 grunt/gulp 配合
+  - 与react相关
 
-webpack是<b>模块管理模块加载器兼打包工具</b>，它能把各种资源，例如JS（含JSX）、coffee、样式（含less/sass）、图片等都作为模块来使用和处理。
+## 什么是 webpack？
+
+webpack是<b>模块管理模块加载器兼打包工具</b>，它可以把各种资源，例如 JS（含JSX、vue）、coffee、样式（含less/sass）、图片等都作为模块来使用和处理。
 
 ![a.png](http://webpack.github.io/assets/what-is-webpack.png "")
 
@@ -33,13 +28,13 @@ webpack的官网是 http://webpack.github.io/ ，文档地址是 http://webpack.
 
 其优势主要可以归类为如下几个：
 
-1. webpack 是以 commonJS 的形式来书写脚本滴，但对 AMD/CMD 的支持也很全面，方便旧项目进行代码迁移（对于新项目，推荐直接使用CommonJS）。
+1. webpack 是以 commonJS 的形式来书写脚本滴，但对 AMD/CMD 的支持也很全面，方便旧项目进行代码迁移（对于新项目，推荐直接使用 CommonJS ）。
 2. 能被模块化的不仅仅是 JS 了。
 3. 开发便捷，能替代部分 grunt/gulp 的工作，比如打包、压缩混淆、图片转base64等。
 4. 串联式模块加载器以及插件机制，让其具有更好的灵活性和扩展性，例如提供对CoffeeScript、<b>ES6</b>的支持；
 5. 可以基于配置或者智能分析打包成多个文件，实现公共模块或者按需加载；
 6. 开发时在内存中完成打包，性能更快，完全可以支持开发过程的实时打包需求；对sourcemap有很好的支持，易于调试。
-7. 扩展性强，插件机制完善，特别是支持 React 热插拔（见 react-hot-loader ）的功能让人眼前一亮。
+7. 扩展性强，插件机制完善。
 
 我们谈谈第一点。以 AMD/CMD 模式来说，鉴于模块是异步加载的，所以我们常规需要使用 define 函数来帮我们搞回调：
 ```javascript
@@ -362,12 +357,3 @@ $script("//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js", function()
 ###五. 与 grunt or gulp 配合
 
 [grunt配置](http://webpack.github.io/docs/usage-with-grunt.html) / [gulp配置](http://webpack.github.io/docs/usage-with-gulp.html) 。
-
-
-
-###六. 与React 相关
-
-⑴ 推荐使用`npm install react`的形式来安装并引用 React 模块，而不是直接使用编译后的 react.js，这样最终编译出来的 React 部分的脚本会减少 10-20 kb左右的大小。
-
-⑵ [react-hot-loader](https://github.com/gaearon/react-hot-loader) 是一款非常好用的 React 热插拔的加载插件，通过它可以实现修改-运行同步的效果，配合[webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html) 使用更佳！
-[Webpack-dev-server结合后端服务器的热替换配置](http://www.jianshu.com/p/8adf4c2bfa51)
