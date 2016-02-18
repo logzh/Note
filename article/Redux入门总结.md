@@ -316,7 +316,7 @@ store.dispatch(addToCart({"id": 125, "name": "星战正版机器人BB-10", isCol
 console.log(store.getState());
 ```
 
-![](http://km.oa.com/files/photos/pictures/201601/1452332110_16_w476_h738.png)
+![](https://raw.githubusercontent.com/logzh/bookmark/master/image/1452332110_16_w476_h738.png)
 
 在这里只是简单介绍了 Redux，至于 Redux 怎么结合 React 使用，怎么处理异步请求等，将在之后再进行总结。
 
