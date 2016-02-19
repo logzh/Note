@@ -1,4 +1,4 @@
-#理解Redux
+#理解 react-redux、中间件
 
 - Middleware
 - 异步的 Action
