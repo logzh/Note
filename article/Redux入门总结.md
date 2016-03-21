@@ -1,17 +1,13 @@
+# Redux 入门总结
+
 ## 介绍
-> Redux is a predictable state container for JavaScript apps.
 
-> It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger.
+Redux 是管理应用状态的js库。是单向数据流应用架构的一种比较优雅的实现。
 
-> You can use Redux together with React, or with any other view library.It is tiny (2kB) and has no dependencies.
-
-Redux 是 js **应用状态管理库**。是单向数据流应用架构的一种优雅的实现。严格的单向数据流是 Redux 架构的设计核心。Redux 可以让你构建一致化的应用，运行于不同的环境（**客户端、服务器、原生应用**），并且易于测试。
-
-Redux 和 React 之间没有关系。Redux 支持 React、Angular、Ember、jQuery 甚至纯 JavaScript。
-
-大小 2kb，无依赖。
+Redux 和 React 之间没有关系。Redux 支持 React、Angular、Ember、jQuery 甚至纯 JavaScript。Redux 无依赖。
 
 三大原则
+
 - state 以单一对象存储在 store 对象中。
 - state是只读的：这里和Flux思想一致。唯一改变 state 的方法是触发事先定义好的 action。
 - 使用纯函数 reducer 执行 state 更新。
@@ -63,7 +59,6 @@ Reducer 是什么呢，Reducer 是用来处理数据逻辑的，具体就是根�
 ```
 (previousState, action) => newState
 ```
-
 
 Action 并没有指出应用要如何更新购物车对应的 State。怎么更新 State 就是 reducer 要做的事情了。
 
@@ -208,6 +203,8 @@ store.dispatch(addToCart(goods));
 
 ## 实例
 
+### 官方例子
+
 *example.js* http://rackt.org/redux/
 
 ```
@@ -254,7 +251,8 @@ store.dispatch({ type: 'DECREMENT' })
 // 1
 ```
 
-*example2.js* 完整一点的例子
+### 完整一点的例子
+*example2.js* 
 
 ```
 import { combineReducers, createStore } from 'redux'
@@ -320,7 +318,9 @@ console.log(store.getState());
 
 在这里只是简单介绍了 Redux，至于 Redux 怎么结合 React 使用，怎么处理异步请求等，将在之后再进行总结。
 
+接触Redux会涉及到一些感念，比如纯函数、组合函数、函数柯里化。可以参考文章[Functional Programming for JavaScript People](https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504)。
 参考：
 
 - [Redux官方的文档](http://rackt.org/redux/)
 - [Redux中文文档](http://camsong.github.io/redux-in-chinese/index.html)
+- [Functional Programming for JavaScript People](https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504)

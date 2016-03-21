@@ -1,4 +1,4 @@
-#组件间通信
+# 组件间通信
 
 ## For parent-child communication:父 => 子 通信 
 

@@ -348,3 +348,8 @@ module.exports = Top;
 > A common pattern is to create several stateless components that just render data, and have a stateful component above them in the hierarchy that passes its state to its children via props. The stateful component encapsulates all of the interaction logic, while the stateless components take care of rendering data in a declarative way.
 
 <strong>这种做法在 *redux*（单向数据流 Flux 模式的一种实现）中显得很明显。</strong>
+
+参考文档：
+- [官方文档](http://facebook.github.io/react/docs/getting-started.html)
+- [React 入门教程](https://hulufei.gitbooks.io/react-tutorial/content/introduction.html)
+ 
