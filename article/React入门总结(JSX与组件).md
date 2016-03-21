@@ -1,3 +1,5 @@
+#React 入门总结（JSX与组件）
+
 ##React 的第一印象（编写的代码是什么样子）
 
 开发代码
@@ -222,11 +224,10 @@ ReactDOM.render(<User {...user} name="override name"/>, mountNode);
 四、 属性值可以使用 Javascript 表达式
 
 ```
-
 return (
   <nav>
     <Home />
-    {loggedIn ? <LogoutButton />:<LoginButton />}
+    {loggedIn ? <LogoutButton /> : <LoginButton />}
   </nav>
 );
 
@@ -284,19 +285,19 @@ var HelloMessage = React.createClass({
 
 常见的三种场景
 
-- Renders as id="false":
+- 1、Renders as id="false":
 
 ```
 ReactDOM.render(<div id={false} />, mountNode);
 ```
 
-- String "false" as input value:
+- 2、String "false" as input value:
 
 ```
 ReactDOM.render(<input value={false} />, mountNode);
 ```
 
-- No child:
+- 3、No child:
 
 ```
 ReactDOM.render(<div>{false}</div>, mountNode);
@@ -308,14 +309,15 @@ ReactDOM.render(<div>{false}</div>, mountNode);
 <div>{x > 1 && 'You have more than one item'}</div>
 ```
 
-##组件
+## 组件
 组件有两个核心的概念：
-* props 属性，由外面的 JSX 熟悉传入，<strong>永远是只读的</strong>，之后建议不要修改。主要用于数据的展示、父子组件的数据传递。
+* props 属性，由外面的 JSX 熟悉传入，*永远是只读的*，之后建议不要修改。主要用于数据的展示、父子组件的数据传递。
 * state 状态，组件可以理解为一个状态机，fn(state)=>UI。一旦状态发生改变，组件会自动 render 方法重新渲染UI。
 
 开发组件时，应该让状态尽可能的少，但能完全表达整个UI，这样组件逻辑就容易维护。
 
 无状态组件（stateless function）: 使用纯粹的函数可以定义无状态的组件。这种组件只是简单的从外面接受 props 渲染 DOM。
+
 ```
 var React = require('react');
 require('../css/gotop.css');
@@ -345,4 +347,4 @@ module.exports = Top;
 
 > A common pattern is to create several stateless components that just render data, and have a stateful component above them in the hierarchy that passes its state to its children via props. The stateful component encapsulates all of the interaction logic, while the stateless components take care of rendering data in a declarative way.
 
-<strong>这种做法在redux（单向数据流Flux模式的一种实现）中显得很明显。</strong>
+<strong>这种做法在 *redux*（单向数据流 Flux 模式的一种实现）中显得很明显。</strong>
