@@ -78,7 +78,7 @@ module.exports = config;
 
 ##3、React
 
-![](http://km.oa.com/files/photos/pictures/201602/1456321839_28_w760_h320.jpg)
+![](https://facebook.github.io/react/img/logo.svg)
 
 React提供应用的 View 层，表现为组件，具体参考[官方文档](http://facebook.github.io/react/docs/getting-started.html)
 
