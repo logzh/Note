@@ -1,3 +1,5 @@
+[![](http://wwq.qq.com/images/home-logo.jpg "玩物圈")](http://wwq.qq.com/mall/goods/detail.html?id=100002)
+
 好记性不如烂笔头，之前陆续写过几篇关于玩物圈前端所用到技术栈的总结，现在在[玩物圈PC版](http://wwq.qq.com/mall/goods/detail.html?id=100002)上线之前，将玩物圈前端用到技术栈整体简单总结梳理下。
 
 ##1、webpack
