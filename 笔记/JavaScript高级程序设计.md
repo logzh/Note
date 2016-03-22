@@ -38,16 +38,77 @@ Object.defineProperties(book, {_year:{ ... }, editon:{ ... }, year:{ ... }})
 ### 6.2.1 工厂模式
 
 ```
- function createPerson(name, age, job) {
+function createPerson(name, age, job) {
 	var o = new Object();
 	o.name = name;
 	o.age = age;
 	o.job = job;
 	o.sayName = function(){
-		alert(this.name);
+		console.log(this.name);
 	};
 	return o;
 }
+
+var p1 = createPerson('zhang', 41, 'Doctor');
+var p2 = createPerson('jin', 42, 'Teacher');
 ```
 
 工厂模式解决了创建多个相似对象问题。但没有解决对象的识别问题（即怎么知道一个对象的类型）。
+
+### 6.2.2 构造函数模式
+
+```
+function Person(name, age, job) {
+	this.name = name;
+	this.age = age;
+	this.job = job;
+	this.sayName = function(){
+		console.log(this.name);
+	};
+}
+
+var p1 = new Person('zhang', 41, 'Doctor');
+var p2 = new Person('jin', 42, 'Teacher');
+```
+与工厂模式的区别：
+- 没有显示创建对象
+- 属性和方法直接赋值给 this 对象
+- 没有 return 语句
+- 函数名第一个字母大写（只是惯例）
+
+p1 和 p2 是两个对象。Person 函数为构造函数。p1 和 p2 都有一个 constructor 属性，即构造函数属性，该属性指向 Person。
+```
+console.log(p1.constructor === Person); // true
+console.log(p1.constructor === Person); // true
+```
+> 这正是构造函数模式优于工厂模式的地方，构造函数模式将它的实例标记为了一种特定的类型。
+
+构造函数与其他函数的区别在于**调用方式不同**。任何函数，只要通过 new 操作符来调用，那么它就可以作为构造函数。而任何函数，如果不通过 new 操作符来抵用，那么它和普通函数也没什么两类。
+
+构造函数的问题：它的不同实例的同名函数时不等的。如果改变定义方式可以相等，但却破坏了自定义类型的封装性。
+
+### 6.2.3 原型模式
+
+每个函数都有一个 property 属性，即原型属性，这个属性是一个指针，指向一个对象，成为原型对象。
+原型对象让所有的对象实例共享它包含的属性和方法。也就是不必再构造函数中定义对象实例的信息，而是将这些共享的信息直接添加到原型对象中。
+
+```
+function Person(){
+
+}
+
+Person.prototype.name = 'default name';
+Person.prototype.age = 1;
+Person.prototype.job = '';
+Person.prototype.sayName = function(){
+	console.log(this.name);
+}
+
+var p1 = new Person();
+p1.sayName(); // default name
+
+var p2 = new Person();
+p2.sayName(); // default name
+
+console.log(p1.sayName === p2.sayName); // true
+```
