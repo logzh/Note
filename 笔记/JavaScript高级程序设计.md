@@ -1,15 +1,13 @@
-# 读书笔记
-
-## 第6章 理解对象
+# 第6章 理解对象
 
 - 理解对象属性
 - 创建对象
 - 对象继承
 
-### 理解对象
+## 6.1 理解对象
 
-- 属性类型
-  - 数据属性： 修改默认特性需要使用ES5的 Object.defineProperty() 方法。IE8 中该方法有限制。
+- 6.1.1 属性类型：两类属性可以同时存在
+  - 数据属性： 修改默认特性需要使用ES5的 Object.defineProperty(obj, 'prop', {...}) 方法。IE8 中该方法有限制。
     - [[Configurable]]： 表示是否可以通过 delete 删除属性，能否修改属性的特性，或者把属性修改为访问器属性。默认为 true；
     - [[Enumerable]]： 表示是否可以通过 for-in 循环返回属性。默认为 true；
     - [[Writable]]： 表示能否修改属性的值。默认为 true。
@@ -19,3 +17,13 @@
     - [[Enumerable]]： 同上；
     - [[Get]]： 读取属性时调用的函数。默认值为 undefined；
     - [[Set]]： 写入属性时调用的函数。默认值为 undefined；
+
+- 6.1.2 定义多个属性
+
+使用 Object.defineProperties() 方法。
+
+```
+Object.defineProperties(book, {_year:{ ... }, editon:{ ... }, year:{ ... }})
+```
+ 
+兼容性 IE9+，其他
