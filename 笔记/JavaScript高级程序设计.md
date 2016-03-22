@@ -1,0 +1,21 @@
+# 读书笔记
+
+## 第6章 理解对象
+
+- 理解对象属性
+- 创建对象
+- 对象继承
+
+### 理解对象
+
+- 属性类型
+  - 数据属性： 修改默认特性需要使用ES5的 Object.defineProperty() 方法。IE8 中该方法有限制。
+    - [[Configurable]]： 表示是否可以通过 delete 删除属性，能否修改属性的特性，或者把属性修改为访问器属性。默认为 true；
+    - [[Enumerable]]： 表示是否可以通过 for-in 循环返回属性。默认为 true；
+    - [[Writable]]： 表示能否修改属性的值。默认为 true。
+    - [[Value]]： 包含这个属性的数据值。读取写入属性值，都是操作它。默认值为 undefined；
+  - 访问器属性：包含一对 getter 和 setter 函数（都不是必须的）。读取属性值时调用 getter 函数，写入属性值时调用 setter 函数。常用来设置一个属性值导致其他属性值发生变化。
+    - [[Configurable]]： 同上；
+    - [[Enumerable]]： 同上；
+    - [[Get]]： 读取属性时调用的函数。默认值为 undefined；
+    - [[Set]]： 写入属性时调用的函数。默认值为 undefined；
