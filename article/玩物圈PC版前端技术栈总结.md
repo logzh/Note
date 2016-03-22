@@ -2,8 +2,6 @@
 
 ##1、webpack
 
-![webpack.png](https://camo.githubusercontent.com/ebc085019011ababb0d35024824304831c7dc72a/68747470733a2f2f7765627061636b2e6769746875622e696f2f6173736574732f6c6f676f2e706e67)
-
 webpack是一款模块加载器兼打包工具，具体使用参考[官方文档](http://webpack.github.io/docs/)，**很详细**。
 
 项目中的主要作用：
@@ -71,14 +69,10 @@ module.exports = config;
 
 ##2、Babel
 
-![babel.png](https://raw.githubusercontent.com/babel/logo/master/babel.png)
-
 [Babel](https://babeljs.io/)是一个广泛使用的转码器，可以将ES6代码转为ES5代码，JSX语法代码转为ES5代码。
 项目中主要使用Babel将源代码ES6、JSX转码为ES5。
 
 ##3、React
-
-![](https://facebook.github.io/react/img/logo.svg)
 
 React提供应用的 View 层，表现为组件，具体参考[官方文档](http://facebook.github.io/react/docs/getting-started.html)
 
@@ -95,11 +89,14 @@ React提供应用的 View 层，表现为组件，具体参考[官方文档](htt
 
 Redux 是 JavaScript 状态容器，提供可预测化的状态管理。本身跟react没有任何关系。
 
-Redux 除了和 React 一起用外，还支持其它界面库。它体小精悍（只有2kB）且没有任何依赖。
+Redux 除了和 React 一起用外，还支持其它界面库。
 
 ![](http://km.oa.com/files/photos/pictures/201602/1456318094_69_w933_h747.png)
 
 ###4.1、基本思想
+
+可以参考[Redux：一种更优雅的 Flux 实现](https://segmentfault.com/a/1190000004660632)
+
 - Action（普通Action、异步Action）
   - 普通Action，本质是JS普通对象
   - 异步Action，使用了 Thunk middleware 异步 action
@@ -119,12 +116,9 @@ Redux 除了和 React 一起用外，还支持其它界面库。它体小精悍�
 - apiMiddleware：统一处理API请求。一般情况下，每个 API 请求都至少需要 dispatch 三个不同的 action（请求前、请求成功、请求失败），通过这个中间件可以很方便处理。
 - loggerMiddleware：开发环境调试使用，控制台输出应用state日志
 
-我的总结文章：
-- [Redux：一种更优雅的 Flux 实现](http://km.oa.com/group/24792/articles/show/252335)
-- [单向数据流之 Flux](http://km.oa.com/group/24792/articles/show/252333)
-
 参考：
 - [redux中文文档](http://camsong.github.io/redux-in-chinese/)
+- [Redux：一种更优雅的 Flux 实现](https://segmentfault.com/a/1190000004660632)
 
 ##5、react-redux
 
