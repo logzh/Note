@@ -47,8 +47,8 @@ var myMod = angular.module('myMod', []);
 
 不同的阶段与不同的注册方法。
 
-配置阶段可以注入：常量值、Provider
-运行阶段可以注入：常量值、变量值、Service、Factory
+- 配置阶段可以注入：常量值、Provider
+- 运行阶段可以注入：常量值、变量值、Service、Factory
 
 ### 模块依赖
 
