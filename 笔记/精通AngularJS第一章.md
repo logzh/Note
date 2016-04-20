@@ -1,5 +1,20 @@
 ## 一、最简单的demo使用
-
+```
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <script src="http://cdn.tig.qq.com/js/lib/angular-1.3.15.min.js"></script>
+</head>
+<body>
+    <p>jsbin对应地址：<a href="http://jsbin.com/yavicuyife/edit?html,js,output">http://jsbin.com/yavicuyife/edit?html,js,output</a></p>
+<input type="text" ng-model="msg">
+  {{msg}}
+</body>
+</html>
+```
 ## 二、MVC 模式
 
 M
