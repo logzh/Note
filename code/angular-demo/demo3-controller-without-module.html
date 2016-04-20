@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html ng-app>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>低级版本Angular中使用controller不需要模块</title>
   <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
 </head>
-<body >
-    <p>低级版本Angular中使用controller不需要模块</p>
-<div  ng-controller="HelloCtrl">
-<input type="text" ng-model="data.msg">
-  {{data.msg}}
-</div>
-<script type="text/javascript">
-  var HelloCtrl = function($scope) {
+
+<body>
+  <p>低级版本Angular中使用controller不需要模块</p>
+  <div ng-controller="HelloCtrl">
+    <input type="text" ng-model="data.msg"> {{data.msg}}
+  </div>
+  <script type="text/javascript">
+    var HelloCtrl = function($scope) {
      $scope.data = {msg:123};
   }
-  
-</script>
+
+  </script>
 </body>
+
 </html>
