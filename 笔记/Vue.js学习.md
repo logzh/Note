@@ -76,6 +76,7 @@ v-on:click.stop
 <my-component
   :foo="baz"
   :bar="qux"
+  hh="来自字面量语法"
   @event-a="doThis"
   @event-b="doThat">
   
@@ -84,4 +85,75 @@ v-on:click.stop
   <p slot="main-text">Hello!</p>
   
 </my-component>
+```
+
+使用：
+```
+<component-a :msg="msg" hh="来自字面量语法" :click-handle="clickHandle"></component-a>
+```
+组件定义：
+*ComponentA.vue*
+```
+<style>
+    .red {
+        color: #f00;
+    }
+</style>
+
+<template>
+    <h1 class="red" @click="clickHandle(11)">{{msg}}</h1>
+    <p>hh属性：{{hh}}</p>
+    <ul>
+        <li v-for="item in shiwan" track-by="$index">
+            {{ item.name }}
+        </li>
+    </ul>
+</template>
+
+<script type="text/ecmascript-6">
+    export default {
+        props:['msg', 'hh', 'clickHandle'],
+        data() {
+            return {
+                shiwan: []
+            }
+        },
+        ready() {
+            console.log('ready');
+            var self = this;
+            self.$http.get('/static/json/shiwan.json').then(function(response) {
+                // get status
+                response.status;
+                // get all headers
+                response.headers();
+                // get 'expires' header
+                response.headers('expires');
+                // set data on vm
+                self.$set('shiwan', response.data);
+            }, function(response) {
+                // handle error
+            });
+        },
+        methods: {
+            click11 (mm){
+                console.log(this)
+            },
+            click() {
+                var self = this;
+                self.$http.get('/static/json/shiwan.json').then(function(response) {
+                    // get status
+                    response.status;
+                    // get all headers
+                    response.headers();
+                    // get 'expires' header
+                    response.headers('expires');
+                    // set data on vm
+                    self.$set('shiwan', response.data);
+                }, function(response) {
+                    // handle error
+                });
+            }
+        }
+    }
+</script>
 ```
