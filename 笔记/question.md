@@ -2,7 +2,8 @@
 
 ## HTTP
 - HTTP 请求和响应常见字段
-- Etag 
+- Etag,If-None-Match
+> 权威指南 p189
 - 服务端对 Cache-Control 可以做什么
 
 ## 前端
