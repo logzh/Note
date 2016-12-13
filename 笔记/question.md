@@ -73,3 +73,5 @@ X-FROM-SERVER:10.129.*.162
 ### redis 挂了，会怎么样
 
 ## php
+### php,php-fpm,cgi,fast-cgi,nginx 之间的关系
+### 到达 index.php 之前做了什么
