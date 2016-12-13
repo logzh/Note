@@ -39,6 +39,17 @@ Last-Modified:Tue, 22 Nov 2016 06:25:43 GMT
 Server:nginx/1.8.0
 X-FROM-SERVER:10.129.*.162
 ```
+```
+Accept-Ranges:bytes
+Connection:keep-alive
+Content-Length:2055
+Content-Type:text/html
+Date:Tue, 13 Dec 2016 05:25:38 GMT
+ETag:"5833e4e7-807"
+Last-Modified:Tue, 22 Nov 2016 06:25:43 GMT
+Server:nginx/1.8.0
+X-FROM-SERVER:10.129.*.162
+```
 ### Etag,If-None-Match
  权威指南 p189
 ### 服务端对 Cache-Control 可以做什么
