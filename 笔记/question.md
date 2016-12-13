@@ -71,6 +71,10 @@ X-FROM-SERVER:10.129.*.162
 
 ### local-storage 和 cookie 区别
 
+### jsonp
+
+### 跨域问题
+
 ## DB 
 
 ### MySql 常见的引擎 
@@ -85,6 +89,10 @@ X-FROM-SERVER:10.129.*.162
 ### redis 和 memcached 的区别和选型
 
 ### redis 挂了，会怎么样
+
+### reids 设置 key 多久过期
+- EXPIRE、PEXPIRE 
+- EXPIREAT、PEXPIREAT
 
 ## php
 
