@@ -1,7 +1,6 @@
 # 123
 
 ## HTTP
-***
 ### HTTP 请求和响应常见字段
 ```
 Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
@@ -57,7 +56,7 @@ X-FROM-SERVER:10.129.*.162
 ### 服务端对 Cache-Control 可以做什么
 
 ## 前端
-***
+
 ### react 与 angular 的渲染机制
 
 ### 闭包 
@@ -91,7 +90,7 @@ CORS 涉及的响应头：
 - Access-Control-Allow-Headers
 
 ## DB 
-***
+
 ### MySql 常见的引擎 
 
 > 最常见的两种： MyISAM 和 InnoDB。区别略。
@@ -115,7 +114,7 @@ CORS 涉及的响应头：
   - 取模
   - ...
 ## 缓存
-***
+
 ### memcached 是什么鬼
 
 ### redis 和 memcached 的区别和选型
