@@ -8,7 +8,8 @@
 ## 前端
 - react 与 angular 的渲染机制
 - 闭包 
-- 作用域  
+- 作用域
+- 原型机制
 - var 和 let 的区别 
 - es6 中 generator
 - local-storage 和 cookie 区别
