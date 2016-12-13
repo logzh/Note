@@ -1,6 +1,7 @@
 # 123
 
 ## HTTP
+***
 ### HTTP 请求和响应常见字段
 ```
 Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
@@ -56,7 +57,7 @@ X-FROM-SERVER:10.129.*.162
 ### 服务端对 Cache-Control 可以做什么
 
 ## 前端
-
+***
 ### react 与 angular 的渲染机制
 
 ### 闭包 
@@ -90,15 +91,19 @@ CORS 涉及的响应头：
 - Access-Control-Allow-Headers
 
 ## DB 
-
+***
 ### MySql 常见的引擎 
-最常见的两种： MyISAM 和 InnoDB。区别略。
+
+> 最常见的两种： MyISAM 和 InnoDB。区别略。
 
 ### 索引，多个索引 
 
-执行查询时，MySQL只能使用一个索引，会从多个索引中选择一个限制最为严格的索引。
+> 
+- 执行查询时，MySQL只能使用一个索引，会从多个索引中选择一个限制最为严格的索引。
+- 最左前缀是什么
 
 ### 拆表
+
 分库分表
 
 - 垂直拆分：对表的列进行拆分，把一张列比较多的表拆分为多张表
@@ -110,7 +115,7 @@ CORS 涉及的响应头：
   - 取模
   - ...
 ## 缓存
-
+***
 ### memcached 是什么鬼
 
 ### redis 和 memcached 的区别和选型
