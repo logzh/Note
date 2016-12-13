@@ -73,7 +73,19 @@ X-FROM-SERVER:10.129.*.162
 
 ### jsonp
 
-### 跨域问题
+### 跨域问题：怎么解决跨域问题
+怎么算跨域？协议，域名，端口都必须相同，才算在同一个域。
+
+怎么解决？
+- Nginx 反向代理
+- CORS（Cross Origin Resource Sharing 跨域资源共享）
+
+CORS 涉及的响应头：
+- Access-Control-Allow-Origin 允许访问的客户端域名：指定一个具体的域名或者一个星形标示号表示允许所有的域
+- Access-Control-Allow-Methods
+- Access-Control-Allow-Credentials
+- Access-Control-Max-Age
+- Access-Control-Allow-Headers
 
 ## DB 
 
