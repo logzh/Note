@@ -4,6 +4,7 @@
 - HTTP 请求和响应常见字段
 - Etag 
 - 服务端对 Cache-Control 可以做什么
+
 ## 前端
 - react 与 angular 的渲染机制
 - 闭包 
@@ -15,6 +16,7 @@
 ## DB 
 - MySql 常见的引擎 
 - 索引，多个索引 
+
 # 缓存
 - memcached 是什么鬼
 - redis 和 memcached 的区别和选型
