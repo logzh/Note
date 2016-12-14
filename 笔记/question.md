@@ -60,8 +60,8 @@ X-FROM-SERVER:10.129.*.162
 ### react 与 angular 的渲染机制
 
 ### 闭包 
-> 参考文章：[学习Javascript闭包（Closure）学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
-
+参考文章
+- [学习Javascript闭包（Closure）学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html) -[文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures)
 ### 作用域
 
 ### 原型机制
