@@ -61,6 +61,7 @@ X-FROM-SERVER:10.129.*.162
 
 ### 闭包 
 > 参考文章：[学习Javascript闭包（Closure）学习Javascript闭包（Closure）](http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html)
+
 ### 作用域
 
 ### 原型机制
