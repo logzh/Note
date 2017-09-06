@@ -17,7 +17,7 @@ mv xxxx ~/.nvm
 
 ```
 source ~/.nvm/nvm.sh
-export NVM_NODEJS_ORG_MIRROR=xxxxxxxxx
+export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 ```
 - 使其立即生效：
 
